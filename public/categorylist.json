@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/DRrb5gT/Health1.png",
+        "category_type": "Health",
+        "title": "Clean water for children",
+        "description": "Everyone has the human right to safe drinking water. This holds true in stability and in crisis, in urban and rural contexts, and in every country around the world. When children don't have access to clean water, it negatively impacts their health, nutrition, education and every other aspect of their lives.",
+        "price": 620
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/VNTzKc3/Education1.png" ,
+        "category_type": "Education",
+        "title": "Good education",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential. Without your generous donation, many families simply cannot afford to send their children to school, and many schools cannot safely accommodate their students. Your investment today can ensure a better future tomorrow.",
+        "price": 220
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/8ch54LC/Clothing1.png",
+        "category_type": "Clothing",
+        "title": "Used clothing drive",
+        "description": "You collect unwanted clothing from the community. We pick it up and get it to people in need throughout the world. We compensate you handsomely for every pound you collect!",
+        "price": 300
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/p4s6MFN/Food1.png",
+        "category_type": "Food",
+        "title": "Better food for everyone",
+        "description": "Nutritious food is a human right.This belief drives us to provide hunger relief to those in need around the world. Providing nutritious food packages that cater to families’ needs and diets.Preparing warm meals for school-children, the majority of whom are orphans",
+        "price": 320
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/pP7P18Y/Food2.jpg",
+        "category_type": "Food",
+        "title": "Help feed poor children",
+        "description": "95.1 million children have been deprived of midday meals during the pandemic, adding to the child malnutrition load. Join this mission and provide monthly nutrition to ensure poor children are not malnourished. Your contribution will provide sprouts, pulses, health drinks, fruits, and other iron and protein rich food items. Your support for a child’s nutritional growth will: Save a child from malnutrition, Help eradicate hunger",
+        "price": 590
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/fQKHVWT/Health2.jpg",
+        "category_type": "Health",
+        "title": "Healthcare inequality",
+        "description": "In less developed countries, many people need to travel long distances to access healthcare, and often don’t go until they are already very sick. They may even forgo treatment altogether because the costs are simply out of reach. Even in more developed countries, various factors leave many healthcare facilities under-staffed and under-resourced, low on essential medications – and even lacking basic water and hygiene supplies.Join us in our efforts to increase access to life-saving and life-sustaining healthcare in underserved populations in need of your support.",
+        "price": 1020
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/tQ8k7tT/Education3.jpg",
+        "category_type": "Education",
+        "title": "Support for a physically disabled child",
+        "description": "Your donation will be used to buy school uniform school, bag, pencils, notebooks, compass box, and lunch-snacks box to the physically challenged children for education. The children go to government schools / recognized management schools. The provision of these items to disabled children will help to: Improve the school enrollment rate in the target area ,Reduce the dropout rates and child labour and Achieve the 100% school enrollment rate",
+        "price": 1220
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/bd9CnNj/Food3.jpg",
+        "category_type": "Food",
+        "title": "From your heart to their table",
+        "description": "As an international humanitarian aid organization, Baitulmaal matches its donors’ compassion with the needs of those struggling with hunger, because we’re in this together. Without you, some of those struggling with food insecurity would go to sleep hungry tonight, and not know if they’ll eat tomorrow. Every donation matters — especially to those who need it the most. Let’s work together to provide the life-sustaining help they need.",
+        "price": 340
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/YpDSpH3/Clothing3.jpg",
+        "category_type": "Clothing",
+        "title": "Donation baby clothes",
+        "description": "Most organizations and groups allow gently used baby clothes to be donated. You'll want to inspect each item before donating it for rips or tears. If you are donating via social media or a community website, it's a good idea to group all the items together in one 'lot' rather than posting individual pieces of clothing. You can organize the lot by size, gender, season, or condition (new or used).",
+        "price": 180
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/Ntx1N1H/Health3.jpg",
+        "category_type": "Health",
+        "title": "Help a poor patient fight cancer",
+        "description": "Navigating the financial burdens that come with a cancer diagnosis can be challenging. Fortunately there are numerous organizations that help cancer patients financially. These groups offer various forms of aid, from help with medical bills to support for daily living expenses such as rent or transportation.",
+        "price": 2520
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/MsRMB9f/Education2.jpg",
+        "category_type": "Education",
+        "title": "Every girl in school",
+        "description": "Education is a fundamental right for all children, but girls from impoverished, illiterate families are mostly denied this right in India. By the time they reach adolescence, 40% are out of school, kept at home doing household chores. Join Mission: Every Girl in School and support the education of thousands of girls. Your support for a girl's schooling will: Give access to education, Impact dropout rates, Prevent child marriages.",
+        "price": 430
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/CwTD3XT/Clothing2.jpg",
+        "category_type": "Clothing",
+        "title": "Winter relief",
+        "description": "Globally, an estimated 1.7 million people succumb to winter deaths every year. It’s not the cold alone that kills; it’s the lack of adequate clothing and heating that puts people at risk. Those who endure ongoing conflict, forced displacement, weather disasters, or other emergencies enter the winter season facing increasing levels of poverty, shortage of basic needs, and diminishing hope. We can help protect these vulnerable families from predictable, preventable winter suffering by sending food, blankets, clothes and other winter essentials to turn their worry into warmth.",
+        "price": 620
+
+    }
+]
