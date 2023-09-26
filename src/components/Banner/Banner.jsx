@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/6NBd5tv/Rectangle-4281.png)' }}>
             <div className="hero-overlay bg-opacity-80 bg-white"></div>
-            <div className="hero-content text-center text-neutral-content">
+            <div className="hero-content text-center text-neutral-content"> 
                 <div className="text-center">
                     <h1 className="mb-5 text-5xl font-bold text-[#0B0B0B] mt-40">I Grow By Helping People In Need</h1>
                     <div className="flex justify-center overflow-hidden ">
