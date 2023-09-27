@@ -25,15 +25,16 @@ const Donation = () => {
     }, [donationCatList])
     return (
         <div className="py-32">
-            <div className="py-32 px-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className=" px-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
                 {
                    isShow ? donation.map(singleDonate => <SingleDonation key={singleDonate.id} singleDonate={singleDonate}></SingleDonation>)
                    : donation.slice(0,4).map(singleDonate => <SingleDonation key={singleDonate.id} singleDonate={singleDonate}></SingleDonation>)
                 }
             </div>
             {
-                donation.length > 4 ? <button onClick={()=>setIsShow(!isShow)} className="mx-auto">See All</button> : ''
+                donation.length > 4 && !isShow ? <button onClick={()=>setIsShow(!isShow)} className="mx-auto mt-10  flex justify-center btn bg-[#009444] hover:bg-green-800 text-white">See All</button> : ''
             }
+           
         </div>
 
     );
