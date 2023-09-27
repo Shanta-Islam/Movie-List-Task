@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'; 
-const Banner = ({handleSearchClick, setSearchVal}) => {
+const Banner = ({handleSearchClick, setSearchVal}) => { 
     
     return (
         <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/6NBd5tv/Rectangle-4281.png)' }}>
