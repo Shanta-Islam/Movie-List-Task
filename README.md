@@ -1,8 +1,6 @@
-### Project About Donation Campaign
+### Project About Movie List
 
 ### Features List:
 * Responsive Web Design
-* Donation List Page
-* Details About Donation List
-* Statistics Page"# donation-campaign-assignment8" 
-"# Movie-List-Task" 
+* Booked Ticket Page
+* Details About Movies List
