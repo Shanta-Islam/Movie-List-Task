@@ -1,14 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from '../../assets/Logo.png'; 
 
 const Header = () => {
     const links = <>
         <li><NavLink to="/" className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-[#FF444A] hover:text-[#FF444A] focus:text-[#FF444A] bg-transparent underline" : ""}>Home</NavLink></li>
-        <li><NavLink to="/donation" className={({ isActive, isPending }) =>
+        <li><NavLink to="/bookedList" className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-[#FF444A] hover:text-[#FF444A] focus:text-[#FF444A]  bg-transparent underline" : ""}>Donation</NavLink></li>
-        <li><NavLink to="/statistics" className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? "text-[#FF444A] hover:text-[#FF444A] focus:text-[#FF444A]  bg-transparent underline" : ""}>Statistics</NavLink></li>
+        
     </>
     return (
         <div className="navbar bg-base-100 fixed z-20">
@@ -21,7 +19,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <Link to='/'><img src={logo} alt="" className="w-52"/></Link>
+                <Link to='/'><a className="font-bold text-xl">MCollection</a></Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="gap-10 menu-horizontal px-1">

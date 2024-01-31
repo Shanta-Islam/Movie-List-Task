@@ -5,18 +5,18 @@ import { useState } from "react";
 
 
 const Home = () => {
-    const categoriesItem = useLoaderData();
-    const [categoriesList, setcategoriesList] = useState(categoriesItem);
+    const moviesItem = useLoaderData();
+    const [moviesList, setMoviesList] = useState(moviesItem);
     const [searchVal, setSearchVal] = useState("");
     // const [searchResults, setsearchResults] = useState([]);
     const handleSearchClick = () => {
         if (searchVal === "") {
-            setcategoriesList(categoriesItem); 
+            setMoviesList(moviesItem); 
             return;
         }
         else {
-            const filterBySearch = categoriesItem.filter((item) => {
-                if (item.category_type.toLowerCase().includes(searchVal.toLowerCase())) {
+            const filterBySearch = moviesItem.filter((item) => {
+                if (item.show.name.toLowerCase().includes(searchVal.toLowerCase())) {
                     // console.log(item)
                     return true;
                 }
@@ -25,17 +25,17 @@ const Home = () => {
             })
            
             // console.log(searchResults)
-            setcategoriesList(filterBySearch);
+            setMoviesList(filterBySearch);
         }
         
         
     }
 
-    console.log(categoriesList)
+    console.log(moviesList)
     return (
         <div>
             <Banner handleSearchClick={handleSearchClick} setSearchVal={setSearchVal}></Banner>
-            <CategoryList handleSearchClick={handleSearchClick} categoriesList={categoriesList}></CategoryList>
+            <CategoryList handleSearchClick={handleSearchClick} moviesList={moviesList}></CategoryList>
         </div>
     );
 };

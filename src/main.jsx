@@ -5,9 +5,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import CategoryListDetails from './components/CategoryListDetails/CategoryListDetails';
-import Donation from './components/Donation/Donation';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-import Statistics from './components/Statistics/Statistics';
+import BookedList from './components/BookedList/BookedList';
+
 
 const router = createBrowserRouter([
   {
@@ -17,23 +17,18 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        loader: ()=> fetch('/categorylist.json'),
+        loader: ()=> fetch('https://api.tvmaze.com/search/shows?q=all'),
         element: <Home></Home>
       },
       {
-        path: "/category-list/:id",
-        loader: ()=> fetch('/categorylist.json'),
+        path: "/movie-list/:id",
+        loader: ()=> fetch('https://api.tvmaze.com/search/shows?q=all'),
         element: <CategoryListDetails></CategoryListDetails>
       },
       {
-        path: '/donation',
-        loader: ()=> fetch('/categorylist.json'),
-        element: <Donation></Donation>
-      },
-      {
-        path: '/statistics',
-        loader: ()=> fetch('/categorylist.json'),
-        element: <Statistics></Statistics>
+        path: '/bookedList',
+        loader: ()=> fetch('https://api.tvmaze.com/search/shows?q=all'),
+        element: <BookedList></BookedList>
       }
     ]
   },
